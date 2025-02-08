@@ -18,6 +18,6 @@ console.log(`Shipping and Handling: $${shipping_handling.toFixed(2)}`);
 let total_before_tax = (item_cost * 100 + shipping_handling * 100) / 100;
 console.log(`Total before Tax: $${total_before_tax.toFixed(2)}`);
 
-// Question-13:  10% Tax:
+// Question-14:  10% Tax:
 let tax = (total_before_tax * 100 * 0.1) / 100;
 console.log(`Estimated Tax: $${tax.toFixed(2)}`);
