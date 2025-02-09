@@ -15,10 +15,10 @@ console.log(`Cost of the foos: $${cost}`);
 //Question-5: 10% tax
 
 let tax = cost * 0.1;
+
 //Question-6: display tax
 console.log(`Tax(10%): $${tax}`);
 
 //Question-7: total cost
 let total_cost = cost + tax;
-
 console.log(`Total Cost: $${total_cost}`);
